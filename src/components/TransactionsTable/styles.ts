@@ -26,7 +26,7 @@ export const Container = styled.div`
         color: #363f5f;
       }
 
-      &.deposity {
+      &.deposit {
         color: #33cc95;
       }
 
