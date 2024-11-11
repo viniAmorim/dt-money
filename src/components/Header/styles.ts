@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  background: #5429cc;
+  background: #121214;
 `;
 
 export const Content = styled.div`
@@ -16,7 +16,7 @@ export const Content = styled.div`
   button {
     font-size: 1rem;
     color: #fff;
-    background: #6933ff;
+    background: #015f43;
     border: 0;
     padding: 0 2rem;
     border-radius: 0.25rem;

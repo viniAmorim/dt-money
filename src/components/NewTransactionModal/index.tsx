@@ -59,7 +59,7 @@ export function NewTransactionModal({
       </button>
 
       <Container onSubmit={handleCreateNewTransaction}>
-        <h2>Cadastrar Transação</h2>
+        <h2>Nova Transação</h2>
 
         <input
           placeholder="Título"
@@ -71,6 +71,7 @@ export function NewTransactionModal({
           type="number"
           placeholder="Valor"
           value={amount}
+          style={{ color: "#969cb3" }}
           onChange={(event) => setAmount(Number(event.target.value))}
         />
 

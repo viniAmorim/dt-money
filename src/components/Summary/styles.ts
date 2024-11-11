@@ -7,10 +7,10 @@ export const Container = styled.div`
   margin-top: -10rem;
 
   div {
-    background: #fff;
+    background: #323238;
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
-    color: #363f5f;
+    color: #fff;
 
     header {
       display: flex;
@@ -27,7 +27,7 @@ export const Container = styled.div`
     }
 
     &.highlight-background {
-      background: #33cc95;
+      background: #015f43;
       color: #fff;
     }
   }

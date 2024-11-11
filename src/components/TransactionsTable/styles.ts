@@ -18,12 +18,12 @@ export const Container = styled.div`
     td {
       padding: 1rem 2rem;
       border: 0;
-      background: #ffffff;
+      background: #29292e;
       color: #969cb3;
       border-radius: 0.25rem;
 
       &:first-child {
-        color: #363f5f;
+        color: #969cb3;
       }
 
       &.deposit {
@@ -35,4 +35,8 @@ export const Container = styled.div`
       }
     }
   }
+`;
+
+export const Button = styled.button`
+  color: #e52e48;
 `;
